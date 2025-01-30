@@ -1,4 +1,4 @@
-
+// #1
 class Account {
     constructor({login, email}){ 
     this.login = login;
@@ -33,7 +33,7 @@ class User {
         this.followers = followers;
     }
     getInfo() {
-        console.log(` User ${this.name} is ${this.age} years old and has ${this.followers} followers`);
+        console.log(`  ${this.name} має ${this.age} років та ${this.followers} підписників`);
     }
 }
 
